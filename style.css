@@ -8,3 +8,19 @@ html, body {
 body {
     font-family: Arial, sans-serif;
 }
+
+html {
+    background: #0d1117;
+}
+
+body, main, section {
+    background-color: transparent;
+}
+
+.sidebar {
+    background-color: #10151d;
+}
+
+pre {
+    background-color: #161b22;
+}
