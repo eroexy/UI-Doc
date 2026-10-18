@@ -1,6 +1,6 @@
 # UI KAYLIS
 
-# Creating the Window
+# Window
 
     local Window = kaylis:CreateWindow({
         Title = "I love kay!",
@@ -12,3 +12,7 @@
         EnableHubImage = true,
         HubImage = "rbxassetid://82795327169782",
     })
+
+# Tab
+
+    Home = win:CreateTab({Title = "Home", -- Text = "house" -- Icon})
