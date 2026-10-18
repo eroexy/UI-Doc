@@ -10,11 +10,27 @@
         HubImage = "rbxassetid://82795327169782",
     })
 
+    Window Functions
+
+    Window:SetVisible(boolean)
+
+    Window:Destroy()
+
 # Tab
     
     Home = win:CreateTab({Text = "Home", Icon = "house"})
 
-    Better use of tab's is using tables
+    Tab Functions
+
+    Home:SetActive()
+    
+    Home:SetVisible(boolean)
+
+    Home:SetText("string")
+
+    Home:SetIcon("swords")
+
+    Better use of tabs is using tables
 
     local Tabs = {}
     Tabs.Home = win:CreateTab({Text = "Home", Icon = "house"})
