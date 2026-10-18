@@ -1,7 +1,4 @@
-# UI KAYLIS
-
 # Window
-
     local Window = kaylis:CreateWindow({
         Title = "I love kay!",
         SubTitle = "Made by X3D!",
