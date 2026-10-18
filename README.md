@@ -14,5 +14,10 @@
     })
 
 # Tab
+    
+    Home = win:CreateTab({Text = "Home", Icon = "house"})
 
-    Home = win:CreateTab({Title = "Home", -- Text = "house" -- Icon})
+    # Better use of tab's is using tables
+
+    local Tabs = {}
+    Tabs.Home = win:CreateTab({Text = "Home", Icon = "house"})
